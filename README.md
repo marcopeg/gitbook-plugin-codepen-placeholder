@@ -8,14 +8,22 @@ Super duper basic Codepen integration for Gitbook 3.x.
 {
     "plugins": [
         "codepen-placeholder"
-    ]
+    ],
+    "codepen-placeholder": {
+        "account": "marcopeg",
+        "username": "Marco Pegoraro",
+        "height": "300px",
+        "width": "100%",
+        "themeId": "0",
+        "defaultTab": "html,result"
+    }
 }
 ```
 
-### Add YouTube videos:
+### Embed your Codepen:
 
 ```
-{% codepen embed="G9J-KcqcQYY" %}{% endcodepen %}
-```
+{% codepen id="qBWxQLB" %}{% endcodepen %}
 
-They will be fully responsive :-)
+{% codepen id="qBWxQLB", height="400px", defaultTab="result" %}{% endcodepen %}
+```
